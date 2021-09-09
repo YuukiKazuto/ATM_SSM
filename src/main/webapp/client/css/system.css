@@ -1,0 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#head {
+	background: lavender;
+}
+
+#headInfo {
+	height: 30px;
+	width: 1280px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+
+#headLeft {
+	margin-left: 10px;
+	float: left;
+}
+
+#headLeft>a {
+	color: black;
+	text-decoration: none;
+}
+
+#headRight {
+	float: right;
+	right: 10px;
+	margin-right: 10px;
+}
+
+#headRight>span {
+	font-style: italic;
+	color: gray;
+}
+
+#main {
+	margin: 0 auto;
+	background: dodgerblue;
+	width: 1000px;
+	height: 850px;
+	border: 0.5px solid black;
+}
+
+#mainHead {
+	background: white;
+	width: 1000px;
+}
+
+#time {
+	float: right;
+	margin: 20px;
+	font-size: 100px;
+	color: red;
+}
+
+#mainInfo {
+	width: 1000px;
+}
+
+button {
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bolder;
+	font-weight: bolder;
+	font-family: "Songti SC";
+	border-radius: 10px;
+}

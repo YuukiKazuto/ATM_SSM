@@ -1,0 +1,24 @@
+#maincardNO{
+    margin:230px 0;
+    position: relative;
+    left: 250px;
+}
+#maincardNO>p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#mainPassword{
+    margin:250px 0;
+    position: relative;
+    left: 250px;
+}
+#mainPassword>p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+input{
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+}

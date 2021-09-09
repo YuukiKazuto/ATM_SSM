@@ -1,0 +1,19 @@
+#exit{
+    color: red;
+}
+#mainText{
+    margin:180px 350px;
+}
+#mainText>p{
+    font-size: 24px;
+    margin-bottom: 200px;
+}
+#mainButton1{
+    float: right;
+}
+#mainButton2{
+    float: left;
+}
+#mainButton1 button,#mainButton2 button{
+    margin-top: 140px;
+}

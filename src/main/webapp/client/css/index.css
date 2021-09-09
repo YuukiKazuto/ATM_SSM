@@ -1,0 +1,18 @@
+#mainBanner{
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 220px;
+}
+#mainBanner>img{
+    width: 560px;
+    height: 280px;
+    top: 180px;
+    position: absolute;
+
+}
+#mainButton{
+    float: right;
+    position: relative;
+    top: 150px;
+}
