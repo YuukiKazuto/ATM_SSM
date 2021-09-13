@@ -71,22 +71,22 @@ public class UserServiceImpl implements UserService {
     @Override
     public User transfer(double money, User user, User user1) {
         List<History> historyList = user.getHistoryList();
-        double balance = user.getMoney(),balance1=user1.getMoney();
-        Date date=new Date();
+        double balance = user.getMoney(), balance1 = user1.getMoney();
+        Date date = new Date();
         user.setMoney(balance - money);
-        user1.setMoney(balance+money);
+        user1.setMoney(balance1 + money);
         userMapper.subMoney(user);
         history.setUid(user.getId());
-        history.setType("转账给"+user1.getId());
+        history.setType("转账给" + user1.getId());
         history.setMoney(money);
         history.setTime(date);
         historyList.add(history);
         user.setHistoryList(historyList);
         historyMapper.addHistory(history);
         userMapper.addMoney(user1);
-        historyList=user1.getHistoryList();
+        historyList = user1.getHistoryList();
         history.setUid(user1.getId());
-        history.setType("收款来自"+user.getId());
+        history.setType("收款来自" + user.getId());
         history.setMoney(money);
         history.setTime(date);
         historyList.add(history);
